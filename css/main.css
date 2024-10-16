@@ -78,4 +78,6 @@
   .credits-row:nth-child(3) .credits {
     animation-duration: 30s;
   }
-  
+  .credits-row:hover .credits {
+  animation-play-state: paused;
+  }
